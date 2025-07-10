@@ -20,12 +20,12 @@ a{
     font-size: 16px;
     font-weight: 600;
     transition: 0.4s;
-    border: 5px solid transparent;
+    display: inline-block;
+    border: 3px solid transparent;
 }
 
 .button:hover {
     background: #57C785;
-    transform: scale(2);
     border: 3px solid #000000;
 }
 
@@ -79,6 +79,7 @@ nav .left a span{
 #banner_section .headdiing {
     font-size: 65px;
     font-weight: bold;
+    margin-bottom: 38px;
 }
 
 /* banner section end */
@@ -97,7 +98,18 @@ nav .left a span{
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 24px;
+    color: #252432;
+    margin-top: 38px;
 }
+#live_preview .container .sub_headdiing {
+    font-size: 42px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 24px;
+    color: 252432;
+}
+
+
 
 #live_preview .right img{
 border-radius: 48px;
