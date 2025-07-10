@@ -32,9 +32,14 @@ a{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F8FF;
     font-family: "Raleway",
     sans-serif;
 }
+
 /* common css start  */
 
 
@@ -82,7 +87,7 @@ nav .left a span{
     margin-bottom: 115px;
 }
 
-#banner_section .headdiing {
+#banner_section .heading {
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 38px;
@@ -104,15 +109,15 @@ nav .left a span{
     align-items: center;
 }
 
-#live_preview .container .headdiing{
+#live_preview .container .heading {
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 24px;
     color: #252432;
     margin-top: 38px;
 }
-#live_preview .container .sub_headdiing {
-    font-size: 42px;
+#live_preview .container .sub_heading {
+    font-size: 24px;
     font-weight: 400;
     color: rgba(37, 36, 50, 0.5);
     margin-bottom: 24px;
@@ -169,8 +174,11 @@ border-radius: 48px;
 
 
 /* review_section css start */
+#review_section {
+    margin-bottom: 138px;
+}
 
-#review_section .container .headdiing {
+#review_section .container .heading {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
@@ -189,7 +197,7 @@ border-radius: 48px;
     width: 365px;
     border-radius: 15px;
 }
-#review_section .main .card_heddiing {
+#review_section .main .card_heading {
     font-size: 24px;
     font-weight: 600;
     color: #1E1E1E;
@@ -230,3 +238,156 @@ border-radius: 48px;
     sans-serif;
     color: #757575;
 }
+/* review_section css end */
+
+
+
+/* focus_section css start */
+
+#focus_section .container {
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 70px 150px;
+    margin-bottom: 90px;
+}
+
+#focus_section .container .heading {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+#focus_section .container .sub_heading {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+#focus_section .container .button {
+    margin-bottom: 20px;
+}
+
+#focus_section .container img {
+    width: 100%;
+    border-radius: 48px;
+}
+
+/* focus_section css end */
+
+
+
+/* form_section css start */
+
+#form_section .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+#form_section .container .left {
+    display: flex;
+    align-items: center;
+}
+
+#form_section .container .big_heading {
+    font-size: 98px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#form_section .container input {
+    width: 498px;
+    height: 70px;
+    padding: 20px 32px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 16px;
+    display: block;
+}
+
+#form_section .container input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0000007b;
+    font-family: "Inter",
+    sans-serif;
+}
+
+#form_section .container label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Inter",
+    sans-serif;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#form_section .container textarea {
+    width: 498px;
+    height: 135px;
+    padding: 20px 32px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 16px;
+    display: block;
+    resize: none;
+}
+
+#form_section .container button {
+    width: 498px;
+}
+/* form_section css end */
+
+
+/* footer css start */
+footer {
+    text-align: center;
+    background: #fff;
+    padding: 150px 0;
+}
+
+footer .logo {
+    font-size: 100px;
+    font-weight: bolder;
+    color: #2A7B9B;
+    font-family: "Inter",
+        sans-serif;
+    line-height: 34px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+footer .logo span {
+    color: #57C785;
+}
+
+footer .logo_sub, a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8987A1;
+    font-family: "Inter",
+    sans-serif;
+    transition: .4s;
+}
+footer ul li{
+    display: inline-block;
+    margin: 20px 5px 0;
+}
+
+footer a:hover{
+    color: #57C785;
+}
+
+footer .logo:hover span {
+    color: #2A7B9B;
+}
+
+/* footer css end */
