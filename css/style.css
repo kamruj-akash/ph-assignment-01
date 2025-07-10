@@ -20,12 +20,14 @@ a{
     font-weight: 600;
     transition: 0.4s;
     display: inline-block;
-    border: 3px solid transparent;
+    border: 5px solid transparent;
 }
 
 .button:hover {
     background: #57C785;
-    border: 3px solid #000000;
+    border: 5px solid #dadada70;
+    border-radius: 15px;
+    box-shadow: 5px 6px 18px 3px rgba(161, 161, 161, 0.39);
 }
 
 *{
@@ -99,6 +101,7 @@ nav .left a span{
 
 
 /* live_preview section start */
+
 #live_preview .container {
     display: flex;
     justify-content: space-between;
@@ -126,6 +129,12 @@ nav .left a span{
 
 #live_preview .right img{
 border-radius: 48px;
+transition: 0.4s;
+}
+
+#live_preview .right img:hover {
+    box-shadow: 5px 6px 18px 3px rgba(161, 161, 161, 0.39);
+    border-radius: 30px;
 }
 /* live_preview section end */
 
@@ -141,7 +150,7 @@ border-radius: 48px;
     margin-bottom: 138px;
 }
 
-#user_count .headdiing {
+#user_count .heading {
     font-size: 38px;
     font-weight: bold;
     margin-bottom:40px;
@@ -193,9 +202,16 @@ border-radius: 48px;
 
 #review_section .main .card {
     padding: 24px;
-    background: #FFFFFF;
+    background: #ffffff82;
     width: 365px;
     border-radius: 15px;
+    transition: .4s;
+    margin-top: 20px;
+}
+
+#review_section .main .card:hover {
+    box-shadow: 5px 6px 18px 3px rgba(161, 161, 161, 0.39);
+    transform: translateY(-10px);
 }
 #review_section .main .card_heading {
     font-size: 24px;
@@ -273,6 +289,12 @@ border-radius: 48px;
 #focus_section .container img {
     width: 100%;
     border-radius: 48px;
+    transition: 0.4s;
+}
+
+#focus_section .container img:hover {
+    box-shadow: 5px 6px 18px 3px rgba(161, 161, 161, 0.39);
+    border-radius: 30px;
 }
 
 /* focus_section css end */
@@ -308,6 +330,7 @@ border-radius: 48px;
     margin-bottom: 20px;
     font-size: 16px;
     display: block;
+    transition: .4s;
 }
 
 #form_section .container input::placeholder{
@@ -316,6 +339,14 @@ border-radius: 48px;
     color: #0000007b;
     font-family: "Inter",
     sans-serif;
+}
+
+#form_section .container input:focus {
+    outline: none;
+    border-color: #2A7B9B;
+    box-shadow: 5px 6px 18px 3px rgba(161, 161, 161, 0.39);
+    -webkit-box-shadow: 5px 6px 18px 3px rgba(161, 161, 161, 0.39);
+    -moz-box-shadow: 5px 6px 18px 3px rgba(161, 161, 161, 0.39);
 }
 
 #form_section .container label {
@@ -339,6 +370,13 @@ border-radius: 48px;
     font-size: 16px;
     display: block;
     resize: none;
+    transition: .4s;
+}
+
+#form_section .container textarea:focus {
+    outline: none;
+    border-color: #2A7B9B;
+    box-shadow: 5px 6px 18px 3px rgba(161, 161, 161, 0.39);
 }
 
 #form_section .container button {
@@ -367,6 +405,7 @@ footer .logo {
 
 footer .logo span {
     color: #57C785;
+    transition: .4s;
 }
 
 footer .logo_sub, a{
