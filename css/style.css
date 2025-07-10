@@ -1,7 +1,6 @@
 
 
 /* common css start  */
-
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -36,8 +35,12 @@ a{
     font-family: "Raleway",
     sans-serif;
 }
+/* common css start  */
 
-/* common css end  */
+
+
+/* nav css start */
+
 nav{
     display: flex;
     padding: 50PX 0;
@@ -46,7 +49,6 @@ nav{
     left: 50%;
     transform: translateX(-50%);
 }
-
 
 nav .container {
     display: flex;
@@ -57,6 +59,8 @@ nav .left  a{
     color: #2A7B9B;
     font-family: "Inter",
     sans-serif;
+
+    sans-serif;
     font-size: 34px;
     font-weight: 800;
     line-height: 34px;
@@ -64,30 +68,36 @@ nav .left  a{
 nav .left a span{
     color: #57C785;
 }
+/* nav css end */
 
-/* banner section start */
+
+
+/* banner css start */
 
 #banner_section {
     background: url('../Assets/Hero-bg.png') no-repeat center ;
     background-size: cover;
-    padding: 250px 0 200px;
+    padding: 280px 0 200px;
     text-align: center;
-    margin-bottom: 140px;
+    margin-bottom: 115px;
 }
-
 
 #banner_section .headdiing {
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 38px;
+    color: #252432;
 }
 
 /* banner section end */
 
 
+
+/* live_preview section start */
 #live_preview .container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 115px;
 }
 
 #live_preview .container .left{
@@ -109,8 +119,114 @@ nav .left a span{
     color: 252432;
 }
 
-
-
 #live_preview .right img{
 border-radius: 48px;
+}
+/* live_preview section end */
+
+
+
+/* user_count section start */
+
+#user_count .container {
+    background: rgba(77, 71, 255, 0.10);
+    border-radius: 34px;
+    text-align: center;
+    padding: 50px 80px;
+    margin-bottom: 138px;
+}
+
+#user_count .headdiing {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom:40px;
+    color: #252432;
+}
+
+#user_count .main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#user_count .card h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #2A7B9B;
+    font-family: "Inter",
+    sans-serif;
+}
+
+#user_count .card h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter",
+    sans-serif;
+}
+
+/* user_count css end */
+
+
+
+/* review_section css start */
+
+#review_section .container .headdiing {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #252432;
+}
+
+#review_section .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#review_section .main .card {
+    padding: 24px;
+    background: #FFFFFF;
+    width: 365px;
+    border-radius: 15px;
+}
+#review_section .main .card_heddiing {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+#review_section .main .card_pera {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E1E1E;
+    margin-bottom: 34px;
+}
+
+#review_section .main .user{
+    display: flex;
+    align-items: center;
+}
+
+#review_section .main .user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+#review_section .main .user .name {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter",
+    sans-serif;
+    color: #757575;
+}
+
+#review_section .main .user .date {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter",
+    sans-serif;
+    color: #757575;
 }
